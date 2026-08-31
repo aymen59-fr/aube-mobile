@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#d8eff7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Aube Mobile</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="aube.svg">
+  <link rel="apple-touch-icon" href="aube.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora"></div>
+  <header class="topbar"><div class="brand"><i></i><span>Aube</span></div><button id="installButton" class="quiet" hidden>Installer</button></header>
+  <main id="app"></main>
+  <nav class="bottom-nav" aria-label="Navigation">
+    <button data-view="home" class="active"><span>⌂</span>Accueil</button>
+    <button data-view="tasks"><span>✓</span>Tâches</button>
+    <button data-view="exams"><span>◎</span>Examens</button>
+    <button data-view="notes"><span>↗</span>Notes</button>
+    <button data-view="settings"><span>⚙</span>Réglages</button>
+  </nav>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Aube Mobile",
+  "short_name": "Aube",
+  "description": "Organisation scolaire privée et locale.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#edf6f5",
+  "theme_color": "#d8eff7",
+  "icons": [{"src":"aube.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
